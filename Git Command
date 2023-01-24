@@ -1,0 +1,39 @@
+PS C:\Users\skmda\OneDrive\Desktop\ReactSampleProject\news-app>  git config --global user.email "skmdasifprofile@gmail.com"
+PS C:\Users\skmda\OneDrive\Desktop\ReactSampleProject\news-app>  git config --global user.name "Sk-Mahammad-Asif"
+PS C:\Users\skmda\OneDrive\Desktop\ReactSampleProject\news-app> git init
+Reinitialized existing Git repository in C:/Users/skmda/OneDrive/Desktop/ReactSampleProject/news-app/.git/
+PS C:\Users\skmda\OneDrive\Desktop\ReactSampleProject\news-app> git add .
+PS C:\Users\skmda\OneDrive\Desktop\ReactSampleProject\news-app> git commit -m "add all files"
+[master (root-commit) f424471] add all files
+ 27 files changed, 30627 insertions(+)
+ create mode 100644 .env
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/logo192.png
+ create mode 100644 public/logo512.png
+ create mode 100644 public/manifest.json
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/Sidebar.css
+ create mode 100644 src/components/NewsItem.js
+ create mode 100644 src/components/Sidebar.js
+ create mode 100644 src/components/Spinner.js
+ create mode 100644 src/components/loading.gif
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/reportWebVitals.js
+ create mode 100644 src/setupTests.js
+PS C:\Users\skmda\OneDrive\Desktop\ReactSampleProject\news-app> git branch -M main
+PS C:\Users\skmda\OneDrive\Desktop\ReactSampleProject\news-app> git remote add origin https://github.com/Sk-Mahammad-Asif/NewsMonkey-UpdatedVersion.git
+PS C:\Users\skmda\OneDrive\Desktop\ReactSampleProject\news-app> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
